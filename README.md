@@ -162,7 +162,7 @@ Alternatively, change `MODEL_NAME` env or variable to a different model.
 
 5. [A Hands-On Guide to Building Intelligent Systems](https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE/preview?tab=t.0), Antonio Gulli
 
-<!-- 6. [Prof. Ghassemi Lectures and Tutorials](https://www.youtube.com/@ghassemi), AI Agents lectures -->
+6. [Prof. Ghassemi Lectures and Tutorials](https://www.youtube.com/@ghassemi), AI Agents lectures
 ---
 
 ## Citation
