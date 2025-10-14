@@ -170,7 +170,7 @@ Alternatively, change `MODEL_NAME` env or variable to a different model.
 If this helped your class or workshop, please cite:
 
 ```
-Maryam Berijanian. (2025).
+Maryam Berijanian, Dr. Dirk Colbry. (2025).
 LangChain + LangGraph Intro Workshop. GitHub repository.
 ```
 ---
