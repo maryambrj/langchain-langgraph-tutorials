@@ -4,6 +4,18 @@
 **Platform:** Google Colab (100% runnable on free student accounts)  
 **Last Updated:** November 2026
 
+> **New to AI Agents, LangChain, or LangGraph?** Start with our 2-minute visual primer: **[`Agents_LangChain_LangGraph_Intro.md`](Agents_LangChain_LangGraph_Intro.md)**.
+
+---
+
+## ⚠️ Free-Tier API Rate Limits
+
+With the default **`gemini` (`gemini-2.5-flash`)** free-tier configuration in Google AI Studio, each personal API key is limited to approximately **10–15 requests per minute **. **Please use your quota responsibly during the workshop:**
+
+1. **Do not put LLM calls inside tight loops** or repeatedly click *Run All* while a cell is still executing.
+2. **Multi-step workflows make multiple calls:** A single ReAct agent run, cyclic reflection loop, or multi-agent supervisor run typically makes **2 to 4 API calls** under the hood.
+3. **If you hit a `429 RESOURCE_EXHAUSTED` error:**, wait **30–60 seconds** before re-running the cell.
+
 ---
 
 ## Overview
@@ -14,7 +26,7 @@ This two-part hands-on workshop introduces students, researchers, and developers
 * **🎛️ Personalized Colab Form Widgets (`#@param`)**: Users can customize inputs.
 * **🧩 Hinge-Line Micro-Puzzles (`TODO` + `assert`)**: Targeted 1-to-3 line coding challenges that are verified automatically by `assert` checks and include **💡 Solution** cells.
 * **🔴 2-Minute Red-Team Challenges**: Timed adversarial exercises where users can test prompt-injection and router-bypass edge cases.
-* **🎓 Capstones**: Includes two mini projects (a Self-Correcting Study Quiz Generator and a 4-Tool University Course & Research Survival Copilot)
+* **🎓 Capstones**: Part 1 concludes with a **Live ArXiv Study-Guide & Flashcard Extractor**, and Part 2 with a **University Course Survival Copilot** combining RAG, grade math, and Human-in-the-Loop email approval.
 
 ---
 
