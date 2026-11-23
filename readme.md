@@ -4,17 +4,15 @@
 **Platform:** Google Colab
 **Last Updated:** November 2026
 
-> **New to AI Agents, LangChain, or LangGraph?** Start with our 2-minute visual primer: **[`intro_crash_course.md`](intro_crash_course.md)**.
-
----
-
-## Overview
-
-This two-part hands-on workshop introduces students, researchers, and developers to building AI applications and autonomous agents using **LangChain** and **LangGraph**.
-
 Part 1: <a href="https://colab.research.google.com/drive/1IwRz9NSRXB7jXWHlyI5LQEg7sVYErpQZ?usp=sharing" target="_blank" rel="noopener">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
 </a>
+
+> **New to AI Agents, LangChain, or LangGraph?** Start with our 2-minute visual primer: **[`intro_crash_course.md`](intro_crash_course.md)**.
+
+This two-part hands-on workshop introduces students, researchers, and developers to building AI applications and autonomous agents using **LangChain** and **LangGraph**.
+
+
 
 **Features**:
 * **🎛️ Personalized Colab Form Widgets (`#@param`)**: Users can customize inputs.
