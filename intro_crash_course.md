@@ -61,6 +61,6 @@ Straight-line pipelines break down when an AI needs to **make decisions**, **ret
 
 | Concept | What It Actually Does |
 | :--- | :--- |
-| **LLM** (`Gemini`, `Qwen`) | Understands language, reasons, and generates text or tool requests. |
+| **LLM** | Understands language, reasons, and generates text or tool requests. |
 | **LangChain** | Connects prompts, models, parsers, vector databases (RAG), and `@tool` functions. |
 | **LangGraph** | Controls **loops, branching, multi-agent handoffs, memory, and human pause/resume**. |

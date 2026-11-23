@@ -1,20 +1,10 @@
 # Introduction to LangChain and LangGraph
 
 **Author:** Maryam Berijanian  
-**Platform:** Google Colab (100% runnable on free student accounts)  
+**Platform:** Google Colab
 **Last Updated:** November 2026
 
-> **New to AI Agents, LangChain, or LangGraph?** Start with our 2-minute visual primer: **[`Agents_LangChain_LangGraph_Intro.md`](Agents_LangChain_LangGraph_Intro.md)**.
-
----
-
-## ⚠️ Free-Tier API Rate Limits
-
-With the default **`gemini` (`gemini-2.5-flash`)** free-tier configuration in Google AI Studio, each personal API key is limited to approximately **10–15 requests per minute **. **Please use your quota responsibly during the workshop:**
-
-1. **Do not put LLM calls inside tight loops** or repeatedly click *Run All* while a cell is still executing.
-2. **Multi-step workflows make multiple calls:** A single ReAct agent run, cyclic reflection loop, or multi-agent supervisor run typically makes **2 to 4 API calls** under the hood.
-3. **If you hit a `429 RESOURCE_EXHAUSTED` error:**, wait **30–60 seconds** before re-running the cell.
+> **New to AI Agents, LangChain, or LangGraph?** Start with our 2-minute visual primer: **[`intro_crash_course.md`](intro_crash_course.md)**.
 
 ---
 
@@ -99,7 +89,13 @@ Before editing either workshop notebook in Google Colab, click **`File -> Save a
 * **`Missing GEMINI_API_KEY` Error:** Toggle the **Notebook access** switch ON next to `GEMINI_API_KEY` in the left Colab `🔑 Secrets` sidebar.
 * **Agent Ignores a Custom `@tool`:** Inspect `tool.description` and `tool.args`. LLMs rely strictly on the Python docstring and parameter names to decide when to invoke a tool (Puzzle 2.1 and Capstone `TODO #1a`).
 * **Graph Loops Forever:** Always pair cyclic edges (`Reflection` in Part 1) with an explicit `iteration >= max_iters` guard inside the conditional routing function.  
-* **Rate Limit:** ~15 requests/minute with free tier.
+
+* **Rate Limit:** With the default **`gemini` (`gemini-2.5-flash`)** free-tier configuration in Google AI Studio, each personal API key is limited to approximately 10–15 requests per minute. **Please use your quota responsibly:**
+
+1. **Do not put LLM calls inside tight loops** or repeatedly click *Run All* while a cell is still executing.
+2. **Multi-step workflows make multiple calls:** A single ReAct agent run, cyclic reflection loop, or multi-agent supervisor run typically makes **2 to 4 API calls** under the hood.
+3. **If you hit a `429 RESOURCE_EXHAUSTED` error:**, wait **30–60 seconds** before re-running the cell.
+
 
 ---
 
