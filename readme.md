@@ -12,6 +12,10 @@
 
 This two-part hands-on workshop introduces students, researchers, and developers to building AI applications and autonomous agents using **LangChain** and **LangGraph**.
 
+Part 1: <a href="https://colab.research.google.com/drive/1IwRz9NSRXB7jXWHlyI5LQEg7sVYErpQZ?usp=sharing" target="_blank" rel="noopener">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab">
+</a>
+
 **Features**:
 * **🎛️ Personalized Colab Form Widgets (`#@param`)**: Users can customize inputs.
 * **🧩 Hinge-Line Micro-Puzzles (`TODO` + `assert`)**: Targeted 1-to-3 line coding challenges that are verified automatically by `assert` checks and include **💡 Solution** cells.
