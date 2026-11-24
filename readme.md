@@ -1,7 +1,7 @@
 # Introduction to LangChain and LangGraph
 
 **Author:** Maryam Berijanian  
-**Platform:** Google Colab
+**Platform:** Google Colab  
 **Last Updated:** November 2026
 
 Part 1: <a href="https://colab.research.google.com/drive/1IwRz9NSRXB7jXWHlyI5LQEg7sVYErpQZ?usp=sharing" target="_blank" rel="noopener">
